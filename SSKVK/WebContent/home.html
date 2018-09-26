@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SRI SRI KAUSHAL VIKAS KENDRA</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Lato"
+	rel="stylesheet" type="text/css">
+<link href="./css/stylesheet.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat"
+	rel="stylesheet" type="text/css">
+<link rel="icon" href="icon.png" type="image/x-icon">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="./javascripts/email.js"></script>
+<script type="text/javascript"
+	src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-growl/1.0.0/jquery.bootstrap-growl.min.js"></script>
+<style type="text/css">
+#share-buttons {
+	position: fixed;
+	z-index: 10;
+}
+
+.share_ul {
+	max-width: 84px;
+	text-align: left;
+	min-width: auto;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.share_li {
+	margin: 0;
+	margin-left: 0;
+	margin-right: 0;
+	display: inline-block;
+	position: relative;
+}
+
+#share-buttons img {
+	width: 50px;
+	padding: 5px;
+	border: 0;
+	box-shadow: 0;
+	display: inline;
+}
+</style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar"
+	data-offset="50">
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#myNavbar">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<!--<a class="navbar-brand" href="#myPage">Logo</a>-->
+				<img src="logo.jpg" width="100" height="50">
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#myPage">HOME</a></li>
+					<li><a href="#aboutUs">ABOUT US</a></li>
+					<li><a href="#administration">ADMINISTRATION</a></li>
+					<li><a href="#notification">NOTIFICATION</a></li>
+					<li><a href="#contact">CONTACT</a></li>
+					<li><a href="#feedback">FEEDBACK</a></li>
+					<li class="dropdown"><a class="dropdown-toggle"
+						data-toggle="dropdown" href="#">MORE <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#trainer">TRAINER</a></li>
+							<li><a href="batch.html">BATCH</a></li>
+							<li><a href="gallery.html">GALLERY</a></li>
+						</ul></li>
+					<!--<li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>-->
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+			<li data-target="#myCarousel" data-slide-to="4"></li>
+			<li data-target="#myCarousel" data-slide-to="5"></li>
+			<li data-target="#myCarousel" data-slide-to="6"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<img src="./image/1.jpg" alt="1" width="1100" height="400">
+				<div class="carousel-caption">
+					<h3></h3>
+					<p></p>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="./image/2.jpg" alt="2" width="1100" height="400">
+				<div class="carousel-caption">
+					<h3></h3>
+					<p></p>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="./image/3.jpg" alt="3" width="1100" height="400">
+				<div class="carousel-caption">
+					<h3></h3>
+					<p></p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="./image/4.jpg" alt="4" width="1100" height="400">
+				<div class="carousel-caption">
+					<h3></h3>
+					<p></p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="./image/5.jpg" alt="5" width="1100" height="400">
+				<div class="carousel-caption">
+					<h3></h3>
+					<p></p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="./image/6.jpg" alt="6" width="1100" height="400">
+				<div class="carousel-caption">
+					<h3></h3>
+					<p></p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="https://www.dropbox.com/s/chfixzzg4b3vhyb/7.jpg?raw=1"
+					alt="7" width="1100" height="400">
+				<div class="carousel-caption">
+					<h3></h3>
+					<p></p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Left and right controls -->
+		<a class="left carousel-control" href="#myCarousel" role="button"
+			data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"
+			aria-hidden="true"></span> <span class="sr-only">Previous</span>
+		</a> <a class="right carousel-control" href="#myCarousel" role="button"
+			data-slide="next"> <span
+			class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<!-- Share buttons -->
+	<div id="share-buttons">
+		<ul class="share_ul">
+			<li><a
+				href="http://www.facebook.com/sharer.php?u=https://sskvksingjamei.com"
+				target="_blank"> <img src="./image/share/fb.jpg" alt="Facebook" />
+			</a></li>
+			<li><a
+				href="https://plus.google.com/share?url=https://sskvksingjamei.com"
+				target="_blank"> <img src="./image/share/g+.jpg" alt="Google" />
+			</a></li>
+			<li><a
+				href="https://twitter.com/share?url=https://sskvksingjamei.com&amp;text=SSKVK,Singjamei;"
+				target="_blank"> <img src="./image/share/twitter.jpg"
+					alt="Twitter" />
+			</a></li>
+			<li><a
+				href="https://web.whatsapp.com/send?text=https://sskvk.singjamei.com"
+				target="_blank"> <img src="./image/share/whatsapp.jpg"
+					alt="whatsapp" />
+			</a></li>
+			<!-- <li><a
+				href="https://www.instagram.com/share?url=https://sskvksingjamei.com"
+				target="_blank"> <img src="./image/share/instagram.jpg"
+					alt="instagram" />
+			</a></li> -->
+		</ul>
+	</div>
+
+	<!-- Container (The Administration Section) -->
+	<div id="aboutUs" class="container text-center">
+		<h2>SSKVK, SINGJAMEI</h2>
+		<p style="color: red;">
+			<em>SRI SRI KAUSHAL VIKAS KENDRA, SINGJAMEI</em>
+		</p>
+		<p style="text-indent: 50px; text-align: justify;">
+		<font size="3">
+			SRI SRI KAUSHAL VIKAS KENDRA, SINGJAMEI, a computer training centre
+			under the aegis of PRIME MINISTER KAUSHAL VIKAS YOJNA (PMKVY). SSKVK,
+			SINGJAMEI is an exclusive institute to make the youth of the nation,
+			computer literate in partnership with SRI SRI RURAL DEVELOPMENT
+			PROGRAM TRUST. It was inaugurated by SHRI PRAHLAD SINGH PATEL, member
+			of parliament from DAMOH LOK SABHA constituency on 10th Dec, 2016. </font>
+		</p>
+		<p style="text-indent: 50px; text-align: justify;">
+		<font size="3">
+			The objective of our Institute is to encourage skill development for
+			youth by providing Certificates and monetary assistance to the
+			eligible candidates through various Government projects like Mudra
+			Loans and others. We at SSKVK, enable and mobilize a large number of
+			Manipuri Youth to take up skill training and become employable and
+			earn their livelihood. Increase productivity of the existing
+			workforce and align the training and certification to the needs of
+			the state and country at large. </font>
+		</p>
+		<p style="text-indent: 50px; text-align: justify;">
+			<font size="3">Currently, only a very small portion of
+				Manipur's workforce has any formal skill training. Not surprisingly,
+				therefore, several youths of our state face low income. We at SSKVK,
+				train them and certify them through the Pradhan Mantri Kaushal Vikas
+				Yojna (PMKVY) which is the flagship outcome-based skill training
+				scheme of the new Ministry of Skill Development & Entrepreneurship
+				(MSDE). This skill certification and reward scheme aim to enable and
+				mobilize a large number of Manipuri Youth to take up skill training
+				and become employable and earn their livelihood.</font>
+		</p>
+	</div>
+	<div id="administration" class="container bg-1 text-center">
+		<h3>ADMINISTRATION</h3>
+		<div class="row">
+			<div class="col-sm-6">
+				<p class="text-center" style="font-size: 100%">
+					<strong>IROM SONI</strong>
+				</p>
+				<img src="https://www.dropbox.com/s/wccnjwg01oe7fg2/soni.jpg?raw=1"
+					class="img-thumbnail" alt="Irom Soni" width="200" height="200">
+				<p style="color: white">Director and SPOC</p>
+			</div>
+			<div class="col-sm-6">
+				<p class="text-center" style="font-size: 100%">
+					<strong>IROM ANGAMBA</strong>
+				</p>
+				<img
+					src="https://www.dropbox.com/s/1xlsshox36hhszs/angamba.jpg?raw=1"
+					class="img-thumbnail" alt="Irom Angamba" width="200" height="200">
+				<p style="color: white">Principal</p>
+			</div>
+			<!-- <div class="col-sm-4">
+      <p class="text-center"><strong>Name</strong></p><br>
+      <a href="#demo3" data-toggle="collapse">
+        <img src="bandmember.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo3" class="collapse">
+        <p>Bass player</p>
+        <p>Loves math</p>
+        <p>Member since 2005</p>
+      </div> -->
+		</div>
+	</div>
+
+	<!-- Container (NOTIFICATION Section) -->
+	<div id="notification" class="">
+		<div class="container">
+			<h3 class="text-center">NOTIFICATION</h3>
+			<!-- <p class="text-center">Lorem ipsum we'll play you some music.<br> Remember to book your tickets!</p> -->
+			<ul class="list-group">
+				<li class="list-group-item">RESULT <a href="result.html"><span
+						class="label label-danger">view!</span></a></li>
+				<li class="list-group-item">ADMISSION <a href="Admission.html"><span
+						class="label label-danger">Hurry!!!</span></a></li>
+				<li class="list-group-item">ANNOUNCEMENT <a
+					href="announcement.html"><span class="label label-danger">0</span></a></li>
+			</ul>
+
+			<div class="row text-center">
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="./image/result.jpg" alt="" width="400" height="300"
+							style="border: 1px solid #021a40">
+						<p>
+							<strong>Result</strong>
+						</p>
+						<!-- <p></p> -->
+						<a href="result.html" class="btn"> View Result</a>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="./image/admission.jpg" alt="" width="400" height="300"
+							style="border: 1px solid #021a40">
+						<p>
+							<strong>Admission</strong>
+						</p>
+						<!-- <p>Last date till -------</p> -->
+						<!-- <a href="form.pdf" class="btn" target="_blank" download>View Details</a> -->
+						<a href="Admission.html" class="btn">View Details</a>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="./image/announcement.jpg" alt="" width="400"
+							height="300" style="border: 1px solid #021a40">
+						<p>
+							<strong>Announcement</strong>
+						</p>
+						<!-- <p>date</p> -->
+						<a href="announcement.html" class="btn"> Check Announcement</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<!-- <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      Modal content
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per person</label>
+              <input type="number" class="form-control" id="psw" placeholder="How many?">
+            </div>
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            </div>
+              <button type="submit" class="btn btn-block">Pay 
+                <span class="glyphicon glyphicon-ok"></span>
+              </button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Cancel
+          </button>
+          <p>Need <a href="#">help?</a></p>
+        </div>
+      </div> 
+    </div>
+  </div>
+  </div> -->
+
+	<!-- Container (Contact Section) -->
+	<div id="contact" class="bg-1 container">
+		<h3 class="text-center">Contact</h3>
+		<p class="text-center">
+			<em>For any enquiry, kindly leave a note here.</em>
+		</p>
+
+		<div class="row">
+			<div class="col-md-4">
+				<p>Visit/Contact:</p>
+				<p>
+					<span class="glyphicon glyphicon-map-marker"></span>Chingamakha
+					Tomal leirak
+				</p>
+				<p>
+					<span class="glyphicon glyphicon-phone"></span>Phone:<br>0385-2442684,7005941174
+				</p>
+				<p>
+					<span class="glyphicon glyphicon-envelope"></span>Email:<br>sskvk.singjamei@gmail.com
+				</p>
+				<p>
+					Follow us @<br> <a style="color: #3B5998"
+						href="http://www.facebook.com/sskvk.singjamei" target="_blank"><i
+						class="fa fa-facebook-official" style="font-size: 36px"></i></a>
+				</p>
+			</div>
+			<div class="col-md-8">
+				<form id="emailForm" method="post">
+					<div class="row">
+						<div class="col-sm-4 form-group">
+							<input class="form-control" id="name" name="name"
+								placeholder="Name" type="text">
+						</div>
+						<div class="col-sm-4 form-group">
+							<input class="form-control" id="email" name="email"
+								placeholder="Email" type="email">
+						</div>
+						<div class="col-sm-4 form-group">
+							<input class="form-control" id="phNo" name="phNo"
+								placeholder="Contact Number" type="text">
+						</div>
+					</div>
+					<textarea class="form-control" id="comments" name="comments"
+						placeholder="Comment" rows="5"></textarea>
+					<br>
+					<div class="row">
+						<div class="col-md-12 form-group">
+							<button id="send" class="btn btn-default pull-right"
+								type="submit" value="Submit">Send</button>
+						</div>
+					</div>
+					<div id="message" class="row success"></div>
+				</form>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+	<div id="feedback" class="container">
+		<h2 class="text-center">Feedback</h2>
+		<ul class="nav nav-tabs">
+			<li class="active"><a data-toggle="tab" href="#home">Student
+					1</a></li>
+			<li><a data-toggle="tab" href="#menu1">Student 2</a></li>
+			<li><a data-toggle="tab" href="#menu2">Student 3</a></li>
+			<li><a data-toggle="tab" href="#menu3">Student 4</a></li>
+			<li><a data-toggle="tab" href="#menu4">Student 5</a></li>
+			<li><a data-toggle="tab" href="#menu5">Student 6</a></li>
+			<li><a data-toggle="tab" href="#menu6">Student 7</a></li>
+			<li><a data-toggle="tab" href="#menu7">Student 8</a></li>
+			<li><a data-toggle="tab" href="#menu8">More FEEDBACK</a></li>
+		</ul>
+
+		<div class="tab-content">
+			<div id="home" class="tab-pane fade in active">
+				<h2>Laishram Kanti Singh, Batch 8</h2>
+				<p style="text-indent: 50px; text-align: justify;">
+					<img src="./image/coma.jpg"></img>&nbsp;&nbsp;First of all, I would
+					like to show my gratitude to the teachers of SSKVK,Singjamei -
+					Ma'am Soni, Sir Angamba, Sir Chandrajit, Miss Daina. I've gained so
+					much of knowledge and experience from the 3 month training program.
+					I would like to thanks the teacher for their dedication and also
+					Hon'ble PM for making such program available to us for free. I am
+					gglad that classes are conducted regularly and it was Sir
+					Chandrajit's sence of humour that kept the enthusiasm alive at
+					times of hardship and exhaustion. I will never forget the teachers
+					for imparting valuable knowledge and wisdom.
+				</p>
+				<p style="text-indent: 50px; text-align: justify;">
+					To conculde, I would like to emphasise that the program is meant to
+					give positive results and empower the youths in many ways.
+					&nbsp;&nbsp;<img src="./image/coma1.jpg"></img>
+				</p>
+			</div>
+			<div id="menu1" class="tab-pane fade">
+				<h2>Bikash Kshetrimayum, Batch 7</h2>
+				<p style="text-indent: 50px; text-align: justify;">
+					<img src="./image/coma.jpg"></img>&nbsp;&nbsp;The teacher used many
+					ways in which to pass on their knowledge to us. A very good mixture
+					of theoretical and practical training. Handout material was very
+					good as there is a lot of information in them that will help me in
+					my job (future). The syllabus was excellently delivered, all
+					aspects were clearly explained and in context. The trainer was very
+					experience and was able to answer all of our queries.
+				</p>
+				<p style="text-indent: 50px; text-align: justify;">
+					I found the course a relevant tool. GREAT COURSE!!!
+					PMKVY.&nbsp;&nbsp;<img src="./image/coma1.jpg"></img>
+				</p>
+			</div>
+			<div id="menu2" class="tab-pane fade">
+				<h2>N Laxmi Devi,Batch 6</h2>
+				<p style="text-indent: 50px; text-align: justify;">
+					<img src="./image/coma.jpg"></img>&nbsp;&nbsp;I am very fortunate
+					to have a completion for a short term computer training course
+					field rechnician computing and peripheral of 3 months from the
+					Institution SSKVK,Singjamei under the program PMKVY launched by the
+					prime minister, Govt. Of India.
+				</p>
+				<p style="text-indent: 50px; text-align: justify;">
+					This institute gives many useful computer technique and helps to
+					the people who are below proverty lines and others to the nearest
+					doors specially the poor people qw well as old age in the hope that
+					they may have chance to get job opportunities for self employment
+					in future.Further I have the opportunity to express my gratitute to
+					the Respected Madam Soni, the principal Sir Angamba and all the
+					teaching staffs and non teaching staffs of this institution for
+					successful facilation of the programme.&nbsp;&nbsp;<img
+						src="./image/coma1.jpg"></img>
+				</p>
+			</div>
+			<div id="menu3" class="tab-pane fade">
+				<h2>Roshan Moirangthem, Batch 5</h2>
+				<p style="text-indent: 50px; text-align: justify;">
+					<img src="./image/coma.jpg"></img>&nbsp;&nbsp;I had a great
+					experience in the course and from this institution. During the time
+					in session, not only computer knowledge, J had developed the
+					ability to function properly about myself, understanding my
+					ability, interest and personality. All the classes are so excited,
+					knowledgeable and interesting, my most existing moment was putting
+					ides together, seeing relationship , similarities and different
+					between ideas. It made me helpful when discuss about term paper and
+					questionnaire.
+				</p>
+				<p style="text-indent: 50px; text-align: justify;">
+					Thanks you, Chairman Madam Soni, Principal Sir Angamba and my
+					instructor Sir Chandrajit who is so friendly and all staff who has
+					given me constant support and made the course so wonderful,
+					knowledgeable. Thanks You so much. &nbsp;&nbsp;<img
+						src="./image/coma1.jpg"></img>
+				</p>
+			</div>
+			<div id="menu4" class="tab-pane fade">
+				<h2>Riya Thingom,Batch 4</h2>
+				<p style="text-indent: 50px; text-align: justify;">
+					<img src="./image/coma.jpg"></img>&nbsp;&nbsp;I agreed that PMKVY
+					is benefit for students. Firstly, it is free and open for everyone.
+					It provides the entire course like computer courses, mechanical
+					course, and electrical courses etc which are needed for our life. I
+					also get benefit from Field Technician Computing and Peripherals
+					course. I got a lot of knowledge about computer hardware and soft
+					skills that I don’t know before. The main benefit is that we can
+					develop in our own choice field. By this we can start own business
+					and can create job for other.
+				</p>
+				<p style="text-indent: 50px; text-align: justify;">
+					I thinks all the hard work have own identify so we need hard work
+					to get a job, if we work hard in PMVKY training time, then sure we
+					can get job in related field.&nbsp;&nbsp;<img
+						src="./image/coma1.jpg"></img>
+				</p>
+			</div>
+			<div id="menu5" class="tab-pane fade">
+				<h2>Student 6, Batch 3</h2>
+				<p style="text-indent: 50px; text-align: justify;">
+					<img src="./image/coma.jpg"></img>&nbsp;&nbsp;AND &nbsp;&nbsp;<img
+						src="./image/coma1.jpg"></img>
+				</p>
+			</div>
+			<div id="menu6" class="tab-pane fade">
+				<h2>Ngashepam Sanatomba Singh, Batch 2</h2>
+				<p style="text-indent: 50px; text-align: justify;">
+					<img src="./image/coma.jpg"></img>&nbsp;&nbsp;As a scheme of Govt.
+					of India, PMKVY is a good and challenging program. We common people
+					got a chance to study the knowledge of Computer here in Imphal.
+					Teachers and staff of SSKVK, Singjamei keep their institute best at
+					their level and we fell satisfied and feel worthy with this
+					computer knowledge.&nbsp;&nbsp;<img src="./image/coma1.jpg"></img>
+				</p>
+				</p>
+			</div>
+			<div id="menu7" class="tab-pane fade">
+
+				<h2>Huirem Sonalika Chanu, Batch 1</h2>
+				<p style="text-indent: 50px; text-align: justify;">
+					<img src="./image/coma.jpg"></img>&nbsp;&nbsp;Our computer training
+					institute SSKVK, Singjamei, was very comfortable for learning. The
+					training was useful in helping me to understand more of Computer
+					Knowledge. It was very well organized. Our trainer has a good
+					understanding of computer and supported my learning throughout the
+					course. He does cover the entire syllabus, discuss topics in detail
+					and complete the course in time. I did enjoy and got benefit from
+					my 3 months training in SSKVK, Singjamei.
+				</p>
+				<p style="text-indent: 50px; text-align: justify;">
+					Lastly I thank PMKVY and all the staff member of SSKVK, Singjamei
+					for providing such a wonderful experience to gain computer
+					knowledge.&nbsp;&nbsp;<img src="./image/coma1.jpg"></img>
+				</p>
+				&nbsp;&nbsp;<img src="./image/coma1.jpg"></img>
+				</p>
+
+			</div>
+			<div id="menu8" class="tab-pane fade">
+				<h2>To veiw More of Feedback, Click the below button</h2>
+				<a href="feedback.html" class="btn"> More Feedback</a>
+
+
+			</div>
+		</div>
+
+	</div>
+	<!-- trainer -->
+	<div id="trainer" class="container bg-1 text-center">
+		<h3>SSKVK TRAINER</h3>
+		<div class="row">
+			<div class="col-sm-6">
+				<p class="text-center">
+					<strong>CH CHANDRAJIT</strong>
+				</p>
+				<img
+					src="https://www.dropbox.com/s/n3cj9f50y3s7v07/trainer1.JPG?raw=1"
+					class="img-thumbnail" alt="chandrajit" width="200" height="266">
+
+				<p style="color: white">B.Tech(ECE),MCA</p>
+			</div>
+			<div class="col-sm-6">
+				<p class="text-center">
+					<strong>SAPAM DAINA DEVI</strong>
+				</p>
+				<img
+					src="https://www.dropbox.com/s/rrr6eonytts9op6/trainer2.jpg?raw=1"
+					class="img-thumbnail" alt="daina" width="200" height="266">
+
+				<p style="color: white">BCA,MCA</p>
+			</div>
+		</div>
+	</div>
+
+	<br>
+	<!-- Add Google Maps -->
+	<div id="googleMap">
+		<div class="mapBox">
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14490.134957299562!2d93.9306046!3d24.7771708!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x58de711bde67bb8e!2sSRI+SRI+KAUSHAL+VIKAS+KENDRA!5e0!3m2!1sen!2sin!4v1537258754994"
+				width="100%" height="450" frameborder="0" style="border: solid"
+				allowfullscreen></iframe>
+		</div>
+	</div>
+	<br>
+	<br>
+	<!-- <div id="googleMap"></div>
+ <script>
+ function myMap() {
+ var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+ var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+ var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+ var marker = new google.maps.Marker({position:myCenter});
+ marker.setMap(map);
+ }
+ </script>
+ <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPvN2sAL2aHOkg2vdZLbG-gEpiMHG_Wl0&callback=myMap"></script> -->
+	<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+<<<<<<< HEAD
+-->
+
+	<!-- Footer -->
+	<br>
+	<footer class="text-center">
+		<a class="up-arrow" href="#myPage" data-toggle="tooltip"
+			title="TO TOP"> <span class="glyphicon glyphicon-chevron-up"></span>
+		</a>
+		<div class="rows">
+			<div class="col-sm-6 text-left">Copyright &copy; 2018, Imphal,
+				Manipur</div>
+			<div class="col-sm-6 text-right">Designed and Developed By TON
+				& BOI-e SOLUTION.</div>
+		</div>
+	</footer>
+
+	<script>
+		$(document).ready(
+				function() {
+					// Initialize Tooltip
+					$('[data-toggle="tooltip"]').tooltip();
+
+					//dropdown toggle
+					$(".dropdown-toggle").dropdown();
+
+					// Add smooth scrolling to all links in navbar + footer link
+					$(".navbar a, footer a[href='#myPage']").on('click',
+							function(event) {
+
+								// Make sure this.hash has a value before overriding default behavior
+								if (this.hash !== "") {
+
+									// Prevent default anchor click behavior
+									event.preventDefault();
+
+									// Store hash
+									var hash = this.hash;
+
+									// Using jQuery's animate() method to add smooth page scroll
+									// The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+									$('html, body').animate({
+										scrollTop : $(hash).offset().top
+									}, 900, function() {
+
+										// Add hash (#) to URL when done scrolling (default click behavior)
+										window.location.hash = hash;
+									});
+								} // End if
+							});
+				})
+	</script>
+</body>
+</html>
