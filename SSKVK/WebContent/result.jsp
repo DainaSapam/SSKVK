@@ -123,7 +123,7 @@
 					</tbody>
 				</table>
 				<div class="text-center">
-					<a href="FormResult.jsp">Back</a>
+					<a href="result.html">Back</a>
 				</div>
 			</div>
 		</div>
