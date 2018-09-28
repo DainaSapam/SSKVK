@@ -35,8 +35,9 @@ h6 {
 		font-size: 22px;
 	 }
 	 
-	 .table{
-	 	width: 100px;
+	 table{
+	 	width: 10%;
+	 	border:1px solid black;
 	 }
 }
 

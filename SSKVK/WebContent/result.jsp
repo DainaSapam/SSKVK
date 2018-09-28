@@ -7,7 +7,7 @@
 <head>
 <title>Result</title>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link href="./css/stylesheet.css" rel="stylesheet" type="text/css">
@@ -133,7 +133,7 @@
 		<div class="rows">
 			<div class="col-sm-6">Copyright &copy; 2018, Imphal, Manipur</div>
 			<div class="col-sm-6 text-right">Designed and Developed By TON
-				& BOI-e SOLUTION.</div>
+				&amp; BOI-e SOLUTION.</div>
 		</div>
 	</footer>
 </body>
