@@ -21,6 +21,9 @@
 	
 </script>
 <script src="./javascripts/result.js"></script>
+<script>
+	
+</script>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar"
 	data-offset="50">
@@ -80,8 +83,8 @@
 								PreparedStatement ps = con.prepareStatement(query);
 								System.out.println(ps);
 								ResultSet rs = ps.executeQuery();
-								while (rs.next()) {
-									if (!rs.getString("result").contains("Grade D")) {
+								if (rs.next()) {
+									if ( !rs.getString("result").contains("Grade D") ) {
 										System.out.println("grade D");
 						%>
 						<tr class="success">
@@ -93,7 +96,7 @@
 							<td class="text-center"><%=rs.getString("result")%></td>
 						</tr>
 						<%
-							} else { %>
+							} else  { %>
 							
 						<tr class="alert alert-danger">
 							<td scope="row"></td>
