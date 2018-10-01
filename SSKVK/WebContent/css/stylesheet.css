@@ -45,11 +45,44 @@ h6 {
 		font-size: 22px;
 	}
 	
-	table {
-		width: 10%;
-		border: 1px solid black;
+	#result{
+		display: block;
+		position: relative;
+		width: 100%;
 	}
-		
+	
+	#result thead {
+		display: block;
+		float: left;
+	}
+	
+	#result tbody {
+		display: block;
+		width: auto;
+		position: relative;
+		overflow-x: auto;
+		white-space: nowrap; 
+	}
+	
+	#result thead tr {
+		display: block;
+	}
+	
+	#result th{
+		display: block;
+	}
+	
+	#result tbody tr{
+		display: inline-block;
+		vertical-align: top;
+	}
+	
+	#result td{
+		display: block;
+		min-height: 2.6em;
+		width: 12.5em;
+	}
+	
 	footer>.rows>.col-sm-6{
 		text-align: center;
 	}
