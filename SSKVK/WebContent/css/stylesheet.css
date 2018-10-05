@@ -369,10 +369,41 @@ textarea {
 	position: relative;
 }
 
-#share-buttons img {
+#share-buttons a {
 	width: 50px;
 	padding: 5px;
 	border: 0;
 	box-shadow: 0;
 	display: inline;
+}
+
+.fa-facebook {
+  background: black;
+  color: white;
+}
+.fa-whatsapp {
+  background: black;
+  color: white;
+}
+.fa-whatsapp:hover {
+	background: #25D366;
+}
+.fa-facebook:hover {
+	background: #3B5998;
+}
+
+.fa-twitter {
+  background: black;
+  color: white;
+}
+.fa-twitter:hover {
+	background: #1DA1F2;
+}
+
+.fa-google-plus {
+  background: black;
+  color: white;
+}
+.fa-google-plus:hover {
+	background: #DB4437;
 }
