@@ -110,7 +110,19 @@ h6 {
 }
 
 /* For tablet layout */
-@media only screen and (min-width:768px) and (max-width:991px) and (orientation: portrait){
+@media only screen 
+and (min-device-width: 970px)
+and (min-device-height: 1280px)
+and (min-resolution: 192dpi)
+and (-webkit-device-pixel-ratio:2)
+and (orientation: portrait){
+	
+	
+	.carousel-inner>.item>img {
+		
+		height: 700px;
+	}
+	
 	footer>.rows>.col-sm-6{
 		text-align: center;
 	}
@@ -119,7 +131,33 @@ h6 {
 	}
 }
 
-@media only screen and (min-width:768px) and (max-width:991px) and (orientation: landscape){
+@media only screen 
+and (min-device-width: 1280px)
+and (min-device-height: 800px)
+and (min-resolution: 192dpi)
+and (-webkit-device-pixel-ratio:2)
+and (orientation: landscape){
+	
+	.container {
+		padding: 15px 25px;
+	}
+	
+	.carousel-inner>.item>img {
+		
+		height: 700px;
+	}
+	
+}
+@media only screen and (max-width: 1200px) and (orientation: portrait){
+	.container {
+		padding: 15px 25px;
+	}
+	
+	.carousel-inner>.item>img {
+		
+		height: 550px;
+	}
+	
 	footer>.rows>.col-sm-6{
 		text-align: center;
 	}
