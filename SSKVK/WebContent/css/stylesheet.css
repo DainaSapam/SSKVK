@@ -347,6 +347,15 @@ textarea {
 	display: inline;
 }
 
+.fa {
+  padding: 7px;
+  font-size: 70px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
 #share-buttons {
 	position: fixed;
 	z-index: 10;
@@ -387,9 +396,11 @@ textarea {
 }
 .fa-whatsapp:hover {
 	background: #25D366;
+	color: white;
 }
 .fa-facebook:hover {
 	background: #3B5998;
+	color: white;
 }
 
 .fa-twitter {
@@ -398,6 +409,7 @@ textarea {
 }
 .fa-twitter:hover {
 	background: #1DA1F2;
+	color: white;
 }
 
 .fa-google-plus {
@@ -406,4 +418,5 @@ textarea {
 }
 .fa-google-plus:hover {
 	background: #DB4437;
+	color: white;
 }
