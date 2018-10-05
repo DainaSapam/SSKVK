@@ -46,41 +46,45 @@ h6 {
 	}
 	
 	#result{
-		display: block;
-		position: relative;
+		/* display: block; */
+		/* position: relative; */
+		border-collapse:collapse;
+		table-layout: fixed;
 		width: 100%;
 	}
 	
 	#result thead {
-		display: block;
+		/* display: block; */
 		float: left;
 	}
 	
 	#result tbody {
-		display: block;
+		/* display: block; */
 		width: auto;
-		position: relative;
-		overflow-x: auto;
-		white-space: nowrap; 
+		/* position: relative; */
+		/* overflow-x: hidden; */ 
+		
 	}
 	
 	#result thead tr {
-		display: block;
+		/* display: block; */
 	}
 	
 	#result th{
-		display: block;
+		/* display: block; */
 	}
 	
 	#result tbody tr{
-		display: inline-block;
-		vertical-align: top;
+		/* display: inline-block; */
+		/* vertical-align: top; */
 	}
 	
 	#result td{
-		display: block;
-		min-height: 2.6em;
-		width: 12.5em;
+		/* display: block; */
+		white-space: pre; 
+		word-wrap: break-word;
+		min-height: 3.9em;
+		width: 30em;
 	}
 	
 	footer>.rows>.col-sm-6{

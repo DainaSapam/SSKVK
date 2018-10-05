@@ -74,8 +74,7 @@
 						ResultSet rs = ps.executeQuery();
 
 						if (rs.next()) {
-					if (!rs.getString("result").contains("Grade D")) {
-								System.out.println("grade D");
+							if (!rs.getString("result").contains("Grade D")) {
 				%>
 				<table id="result" class="table" style="border: 1px solid black">
 					<thead>
@@ -113,7 +112,7 @@
 				<%
 					}
 
-						} else {
+				} else {
 				%>
 
 				<div class="text-center alert alert-danger">You are not a
@@ -123,8 +122,7 @@
 				</div>
 
 				<%
-					System.out.println(rs.getString("aadhar_number"));
-						}
+				}
 
 					} catch (SQLException e) {
 						e.printStackTrace();
