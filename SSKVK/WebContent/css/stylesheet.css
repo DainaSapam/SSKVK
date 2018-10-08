@@ -32,9 +32,12 @@ h6 {
 
 /* Mobile layout*/
 /* For mobile layout in portrait mode */
-@media only screen and ( max-width : 600px) and (orientation: portrait){
+@media only screen 
+and ( max-width : 600px)
+and (orientation: portrait){
+	
 	.container {
-		padding: 15px 25px;
+		padding: 30px 45px;
 	}
 	
 	.carousel-inner>.item>img {
@@ -97,7 +100,7 @@ h6 {
 }
 
 /* For landscape view in mobile */
-@media only screen and ( max-width : 1024px) and (orientation: landscape) {
+@media only screen and ( max-width : 700px) and (orientation: landscape) {
 	.carousel-inner>.item>img {
 		height: 300px;
 	}
@@ -110,18 +113,17 @@ h6 {
 }
 
 /* For tablet layout */
-@media only screen 
-and (min-device-width: 970px)
-and (min-device-height: 1280px)
+ @media only screen 
+and (max-device-width: 970px)
+and (max-device-height: 1280px)
 and (min-resolution: 192dpi)
 and (-webkit-device-pixel-ratio:2)
 and (orientation: portrait){
 	
-	
-	.carousel-inner>.item>img {
+	/* .carousel-inner>.item>img {
 		
 		height: 700px;
-	}
+	} */
 	
 	footer>.rows>.col-sm-6{
 		text-align: center;
@@ -138,17 +140,18 @@ and (min-resolution: 192dpi)
 and (-webkit-device-pixel-ratio:2)
 and (orientation: landscape){
 	
-	.container {
+	/* .container {
 		padding: 15px 25px;
 	}
 	
 	.carousel-inner>.item>img {
 		
 		height: 700px;
-	}
+	} */
 	
-}
-@media only screen and (max-width: 1200px) and (orientation: portrait){
+} 
+ 
+/* @media only screen and (max-width: 1200px) and (orientation: portrait){
 	.container {
 		padding: 15px 25px;
 	}
@@ -164,7 +167,7 @@ and (orientation: landscape){
 	.footer1>.rows>.col-sm-6{
 		text-align: center;
 	}
-}
+}  */
 
 .container1 {
 	padding: 10px 40px;
