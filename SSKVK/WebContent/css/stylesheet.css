@@ -376,25 +376,16 @@ textarea {
 }
 
 /* Share buttons */
-#share {
+/* #share {
 	padding-bottom: .5rem !important;
-}
+} */
 
-#share img{
+/* #share img{
 	width: 40px;
 	padding: 5px;
 	border: 0;
 	box-shadow: 0;
 	display: inline;
-}
-
-.fa {
-  padding: 7px;
-  font-size: 70px;
-  width: 40px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
 }
 
 #share-buttons {
@@ -425,6 +416,15 @@ textarea {
 	border: 0;
 	box-shadow: 0;
 	display: inline;
+} */
+
+.fa {
+  padding: 7px;
+  font-size: 70px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
 .fa-facebook {
