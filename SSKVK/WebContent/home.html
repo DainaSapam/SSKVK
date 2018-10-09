@@ -25,11 +25,12 @@
 <body id="myPage" data-spy="scroll" data-target=".navbar"
 	data-offset="50">
 
-	<nav class="navbar navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-default navbar-fixed-top" role = "navigation">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+				<button type="button" class=" js-scroll-trigger navbar-toggle collapsed" data-toggle="collapse"
 					data-target="#myNavbar">
+					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
 						class="icon-bar"></span>
 				</button>
@@ -38,18 +39,18 @@
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#myPage">HOME</a></li>
-					<li><a href="#aboutUs">ABOUT US</a></li>
-					<li><a href="#administration">ADMINISTRATION</a></li>
-					<li><a href="#notification">NOTIFICATION</a></li>
-					<li><a href="#contact">CONTACT</a></li>
+					<li><a class="js-scroll-trigger" href="#myPage">HOME</a></li>
+					<li><a class="js-scroll-trigger" href="#aboutUs">ABOUT US</a></li>
+					<li><a class="js-scroll-trigger" href="#administration">ADMINISTRATION</a></li>
+					<li><a class="js-scroll-trigger" href="#notification">NOTIFICATION</a></li>
+					<li><a class="js-scroll-trigger" href="#contact">CONTACT</a></li>
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="#">MORE <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="#feedback">FEEDBACK</a></li>
-							<li><a href="#trainer">TRAINER</a></li>
-							<li><a href="batch.html">BATCH</a></li>
-							<li><a href="gallery.html">GALLERY</a></li>
+							<li><a class="js-scroll-trigger" href="#feedback">FEEDBACK</a></li>
+							<li><a class="js-scroll-trigger" href="#trainer">TRAINER</a></li>
+							<li><a class="js-scroll-trigger" href="batch.html">BATCH</a></li>
+							<li><a class="js-scroll-trigger" href="gallery.html">GALLERY</a></li>
 						</ul></li>
 					<!--<li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>-->
 				</ul>
@@ -555,6 +556,10 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 	<script>
 		$(document).ready(
 				function() {
+					$('.js-scroll-trigger').click(function() {
+					    $('.navbar-collapse').collapse('hide');
+					  });
+					
 					// Initialize Tooltip
 					$('[data-toggle="tooltip"]').tooltip();
 
