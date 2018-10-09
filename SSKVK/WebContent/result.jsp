@@ -14,6 +14,7 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat"
 	rel="stylesheet" type="text/css">
 <link rel="icon" href="icon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script
@@ -143,6 +144,12 @@
 	</div>
 	<br>
 	<footer class="text-center">
+	<div id="share">
+			<a href="http://www.facebook.com/sharer.php?u=https://sskvksingjamei.com" class="fa fa-facebook" target="_blank"></a>
+  			<a href="https://twitter.com/share?url=https://sskvksingjamei.com&amp;text=SSKVK,Singjamei;" class="fa fa-twitter" target="_blank"></a>
+  			<a href="https://plus.google.com/share?url=https://sskvksingjamei.com" class="fa fa-google-plus" target="_blank"></a>
+			<a href="https://web.whatsapp.com/send?text=https://sskvk.singjamei.com" class="fa fa-whatsapp" target="_blank"></a>
+		</div>
 		<div class="rows">
 			<div class="col-sm-6">Copyright &copy; 2018, Imphal, Manipur</div>
 			<div class="col-sm-6 text-right">Designed and Developed By TON
