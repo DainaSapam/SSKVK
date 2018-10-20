@@ -45,11 +45,6 @@ public class EnquiryUtility {
 		return flag;
 	}
 	
-	/*private static java.sql.Date getCurrentDate() {
-	    Date today = new java.util.Date();
-	    return new java.sql.Date(today.getTime());
-	}
-	*/
 	private static java.sql.Timestamp getCurrentTime() {
 	    Date today = new java.util.Date();
 	    return new java.sql.Timestamp(today.getTime());
