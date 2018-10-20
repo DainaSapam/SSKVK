@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link href="./css/stylesheet.css" rel="stylesheet" type="text/css">
+<link href="./css/stylesheet.min.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat"
 	rel="stylesheet" type="text/css">
 <link rel="icon" href="icon.png" type="image/x-icon">
@@ -18,7 +18,7 @@
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
 	
 </script>
-<script src="./javascripts/result.js"></script>
+<script src="./javascripts/result.min.js"></script>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar"
 	data-offset="50">
@@ -76,38 +76,6 @@
 
 	<div id="resultExam" class="container"></div>
 
-	<!-- <div id="showResult" class="container" hidden>
-		<div class="row">
-			<div class="col-sm-8 col-sm-offset-2">
-				<div class="page-header">
-					<div class="text-center alert alert-info" role="alert">
-						<h5>Field Technician Computing And Peripheral</h5>
-					</div>
-				</div>
-				<table class="table">
-					<thead class="text-center">
-						<tr>
-							<th scope="col">Name</th>
-							<th scope="col">Center Number</th>
-							<th scope="col">Result</th>
-						</tr>
-					</thead>
-					<tbody>
-					
-						<tr class="success">
-							<td>Test</td>
-							<td>Test</td>
-							<td>Test</td>
-						</tr>
-					</tbody>
-				</table>
-				<div class="text-center">
-					<a id="back" href="#result">Back</a>
-				</div>
-			</div>
-		</div>
-	</div>
- -->
 	<!-- Footer -->
 	<footer id="foot" class="text-center">
 		<a class="up-arrow" href="#myPage" data-toggle="tooltip"

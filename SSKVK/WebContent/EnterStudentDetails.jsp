@@ -7,8 +7,8 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link href="./css/stylesheet.css" rel="stylesheet" type="text/css">
-<link href="./css/admin.css" rel="stylesheet" type="text/css">
+<link href="./css/stylesheet.min.css" rel="stylesheet" type="text/css">
+<link href="./css/admin.min.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat"
 	rel="stylesheet" type="text/css">
 <link rel="icon" href="./icon.png" type="image/x-icon">
@@ -19,7 +19,7 @@
 </script>
 <script
 	src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.7.7/xlsx.core.min.js"></script>
-<script src="./javascripts/studentDetails.js"></script>
+<script src="./javascripts/studentDetails.min.js"></script>
 <title>Enter Students Details</title>
 </head>
 <body>

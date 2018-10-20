@@ -10,7 +10,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link href="./css/stylesheet.css" rel="stylesheet" type="text/css">
+<link href="./css/stylesheet.min.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat"
 	rel="stylesheet" type="text/css">
 <link rel="icon" href="icon.png" type="image/x-icon">
@@ -21,7 +21,7 @@
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
 	
 </script>
-<script src="./javascripts/result.js"></script>
+<script src="./javascripts/result.min.js"></script>
 <script>
 	
 </script>
