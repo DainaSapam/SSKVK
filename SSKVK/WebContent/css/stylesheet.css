@@ -354,6 +354,15 @@ footer {
 	padding: 24px;
 }
 
+.footer2 {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #2d2d30;
+	color: #f5f5f5;
+	padding: 24px;
+}
+
 #foot {
 	position: absolute;
 }
