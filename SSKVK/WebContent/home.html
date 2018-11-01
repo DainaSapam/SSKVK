@@ -43,14 +43,15 @@
 					<li><a class="js-scroll-trigger" href="#aboutUs">ABOUT US</a></li>
 					<li><a class="js-scroll-trigger" href="#administration">ADMINISTRATION</a></li>
 					<li><a class="js-scroll-trigger" href="#notification">NOTIFICATION</a></li>
-					<li><a class="js-scroll-trigger" href="#contact">CONTACT</a></li>
+					<li><a class="js-scroll-trigger" href="course.html" target=_blank>COURSE</a></li>
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="#">MORE <span class="caret"></span></a>
 						<ul class="dropdown-menu">
+							<li><a class="js-scroll-trigger" href="#contact">CONTACT</a></li>
 							<li><a class="js-scroll-trigger" href="#feedback">FEEDBACK</a></li>
 							<li><a class="js-scroll-trigger" href="#trainer">TRAINER</a></li>
 							<li><a class="js-scroll-trigger" href="batch.html">BATCH</a></li>
-							<li><a class="js-scroll-trigger" href="gallery.html">GALLERY</a></li>
+							<li><a class="js-scroll-trigger" href="gallery.html" target=_blank>GALLERY</a></li>
 						</ul></li>
 					<!--<li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>-->
 				</ul>
@@ -117,7 +118,7 @@
 				</div>
 			</div>
 			<div class="item">
-				<img src="https://www.dropbox.com/s/chfixzzg4b3vhyb/7.jpg?raw=1"
+				<img src="./image/7.jpg"
 					alt="7" width="100%" height="550">
 				<div class="carousel-caption">
 					<h3></h3>
@@ -243,7 +244,7 @@
 			<ul class="list-group">
 				<li class="list-group-item">RESULT <a href="result.html"><span
 						class="label label-danger">view!</span></a></li>
-				<li class="list-group-item">ADMISSION <a href="Admission.html"><span
+				<li class="list-group-item">ADMISSION <a data-toggle="modal" data-target="#detail"><span
 						class="label label-danger">Hurry!!!</span></a></li>
 				<li class="list-group-item">ANNOUNCEMENT <a
 					href="announcement.html"><span class="label label-danger">0</span></a></li>
@@ -269,8 +270,7 @@
 							<strong>Admission</strong>
 						</p>
 						<!-- <p>Last date till -------</p> -->
-						<!-- <a href="form.pdf" class="btn" target="_blank" download>View Details</a> -->
-						<a href="Admission.html" class="btn">View Details</a>
+						<a data-toggle="modal" data-target="#detail"class="btn" >View Details</a>
 					</div>
 				</div>
 				<div class="col-sm-4">
@@ -287,42 +287,40 @@
 			</div>
 		</div>
 	</div>
-
-	<!-- Modal -->
-	<!-- <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
+	<div class="modal fade" id="detail" role="dialog">
+    		<div class="modal-dialog">
     
-      Modal content
+      <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">×</button>
-          <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Admission Form</h4>
         </div>
         <div class="modal-body">
-          <form role="form">
-            <div class="form-group">
-              <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per person</label>
-              <input type="number" class="form-control" id="psw" placeholder="How many?">
-            </div>
-            <div class="form-group">
-              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
-              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
-            </div>
-              <button type="submit" class="btn btn-block">Pay 
-                <span class="glyphicon glyphicon-ok"></span>
-              </button>
-          </form>
-        </div>
+        	<div class="col-sm-6" style="">
+    			<h2 align="center">PMKVY Course</h2>
+    		<div class="text-center">
+    		<!-- <p align="center">To apply</p> -->
+			<a href="ftcp.html" class="btn text-center" target="_blank" >Click Here</a>
+   			</div>
+   			</div>
+  			<div class="col-sm-6" style="">
+   			<h2 align="center">Diploma Course</h2>
+      		</div>
+        
+       		<div class="text-center">
+            <!-- <p align="center">To apply</p> -->
+			<a href="dca.html" class="btn text-center" target="_blank" >Click Here</a>
+			</div>
+		</div>
         <div class="modal-footer">
-          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
-            <span class="glyphicon glyphicon-remove"></span> Cancel
-          </button>
-          <p>Need <a href="#">help?</a></p>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
-      </div> 
+      </div>
+      
     </div>
-  </div>
-  </div> -->
+</div>
+	
 
 	<!-- Container (Contact Section) -->
 	<div id="contact" class="bg-1 container1">
